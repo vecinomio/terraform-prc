@@ -3,3 +3,5 @@ provider "google" {
   project = "terraform-trainee"
   region = "europe-west3-c"
 }
+
+ 
