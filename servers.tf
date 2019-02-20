@@ -1,7 +1,7 @@
 resource "google_compute_instance" "firstserver" {
-  name = "thefirstserver"
+  name         = "thefirstserver"
   machine_type = "g1-small"
-  zone = "europe-west3-c"
+  zone         = "europe-west3-c"
 
   boot_disk {
     initialize_params {
